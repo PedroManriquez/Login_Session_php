@@ -1,0 +1,19 @@
+Instrucciones para ejecutar programa:
+
+en MySQL crear base de datos "internet"
+luego importar el dump "internet.sql"
+
+windows:
+	Luego copiar la carpeta completa a htdocs ubicada en la carpeta de xampp o wampp
+	Abrir el navegador y buscar mediante apache la carpeta del proyecto y abrir el login.html
+
+Linux
+	Copiar carpeta en /var/www/html/ (debe realizar con permisos de superusuario)
+	Abrir el navegador y buscar mediante apache la carpeta del proyecto y abrir el login.html
+
+
+Usuarios:      |       Contraseña:	 	|		Cargo:
+18683667-7				1234					Admin
+19683667-7				2345					Profesor
+12345678-9				9876					Profesor 2 (agregado por admin)	
+20683667-7				3456					Estudiante

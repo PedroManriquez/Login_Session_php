@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Añadir Noticia</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body id="fondo">
+	<br>
+	<div class="jumbotron container">
+		<legend><h3 align="center">Ingrese nuevo Participante: </h3></legend>
+		<form action="agregarPersona.php" class="form form-horizontal" method="POST">
+			<p>RUT         :  <input type="text" placeholder="Ingrese RUT" name="rut" required></p>
+			<p>Contraseña  :  <input type="password" placeholder="Ingrese contraseña" name="clave" required></p>
+			<p>Tipo Participante : 
+				<select name="tipo" required>
+					<option value="1">Profesor</option>
+					<option value="2">Estudiante</option>	
+				</select>
+			</p>
+
+			<input type="submit" class="btn btn-primary" value="Añadir Profesor">
+		</form>
+		<br>
+		<div class="container row">
+			<div class="col-xs-3"></div>
+			<div class="col-xs-3">
+				<form action="menuAdmin.php" class="form" method="POST">
+						<p class="p"><input type="submit" class="btn btn-primary" value="Volver al Menu"></p>
+				</form>
+			</div>
+			<div class="col-xs-3">
+				<form action="cerrar.php" class="form" method="POST">
+					<p class="p"><input type="submit" class="btn btn-primary" value="Cerrar Sesion"></p>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+</body>
+</html>

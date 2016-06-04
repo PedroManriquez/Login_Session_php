@@ -1,0 +1,34 @@
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body id="fondo">
+	<br>
+	<div class="container jumbotron">
+		<legend><h3 align="center">Bienvenido Profesor</h3></legend>
+		<br>
+		<div class="container row">
+			<div class="col-xs-2"></div>
+			<div class="col-xs-3">
+				<form action="addNoticia.html" class="form" method="POST">
+					<p class="p"><input type="submit" class="btn btn-primary" value="Agregar Noticia"></p>
+				</form>
+			</div>
+			<div class="col-xs-3">
+				<form action="profesorVerNoticia.php" class="form" method="POST">
+						<p class="p"><input type="submit" class="btn btn-primary" value="Ver Noticias"></p>
+				</form>
+			</div>
+			<div class="col-xs-3">
+				<form action="cerrar.php" class="form" method="POST">
+					<p class="p"><input type="submit" class="btn btn-primary" value="Cerrar Sesion"></p>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
